@@ -1,0 +1,1 @@
+redux kütüphanesini daha iyi anlamak adına basit ve net örnekler.
