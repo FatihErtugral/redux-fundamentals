@@ -69,13 +69,15 @@ setTimeout(() => {
 
 // Console
 /*
- $ node v2.js
-{
-   myReducer: { age: 31 },
-  youReducer: { name: 'Fatih', lastname: 'Ertuğral' }
-}
-{
-   myReducer: { age: 30 },
-  youReducer: { name: 'Emre', lastname: 'test' }
-}
+  $ node v4-middleware-thunk.js
+{ myReducer: { data: {} },
+  youReducer: { name: 'Emre', lastname: 'test' } }
+{ myReducer:
+   { data:
+      Response {
+        size: 0,
+        timeout: 0,
+        [Symbol(Body internals)]: [Object],
+        [Symbol(Response internals)]: [Object] } },
+  youReducer: { name: 'Emre', lastname: 'test' } }
 */
