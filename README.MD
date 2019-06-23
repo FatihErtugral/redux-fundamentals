@@ -5,5 +5,5 @@ console:
 node v1-basic.js
 node v2-multireducer.js
 node v3-aync-api-fetch.js
-node v1-middlewate-thunk.js
+node v4-middlewate-thunk.js
 ```
